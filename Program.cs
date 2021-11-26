@@ -14,7 +14,7 @@ namespace EstimaPi
             Console.Write("Quantas iterações? ");
             int iteracoes = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < iteracoes - 1; i++)
+            for (int i = 0; i <= iteracoes - 1; i++)
             {
                 if (i % 2 == 0)
                 {
